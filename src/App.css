@@ -1,38 +1,80 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image:linear-gradient(to bottom, rgb(168, 247, 168), rgb(0, 247, 255));
+  background-repeat: no-repeat;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.profile{
+  display:flex;
+  margin-top: 10px;
+ 
+}
+.profile img{
+  width:300px;
+  height:300px;
+  border-radius: 50%;
+}
+.float{
+  margin-left: 4rem;
 }
 
-.App-link {
-  color: #61dafb;
+.grid-container{
+  display:grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  border:1px solid white;
+  padding:10px;
+  margin-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.grid-container div{
+  border:3px solid white;
+  padding:10px;
+  text-align: center;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(43, 255, 0));
+}
+.grid-container div:hover{
+  padding: 15px;
+  color:white;
+  transition: 0.6s;
+  transform: rotate(2deg);
+}
+.fa-js, .fa-html5, .fa-css3, .fa-bootstrap, .fa-react, .fa-git{
+  font-size:3rem;
+  color:rgb(250, 250, 250);
+  margin-right:6px;
+  position:relative;
+  bottom:-4px;
+}
+.social{
+  border:4px solid white;
+  margin:5px;
+
+}
+.social h1{
+  color:rgb(94, 94, 94);
+  margin-left: 5px;
+}
+.social a{
+  text-decoration: none;
+  margin:5px;
+  font-size: 1rem;
+  font-weight: 900;
+  color:black
+}
+.social a:hover{
+  color:grey;
 }

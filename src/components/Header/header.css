@@ -1,0 +1,40 @@
+.header{
+    border:4px solid rgb(255, 255, 255);
+    display:flex;
+    background:linear-gradient(to right , rgb(0, 0, 0), rgb(255, 255, 255))
+    
+}
+
+.logo{
+    margin-left:10px;
+    font-size: 2rem;
+    font-weight: bolder;
+    border-style: none;
+    width: 150px;
+    padding: 8px;
+    box-shadow: 8px 10px  8px rgb(82, 82, 82);
+    border-radius: 8px;
+    background-image:linear-gradient( to right, rgba(0, 17, 255, 0.562), rgb(250, 255, 250));
+    color:rgb(156, 4, 187)
+}
+.logo span{
+    color:rgb(0, 192, 250);
+}
+ .header a{
+    text-decoration:none;
+    font-size: large;
+    font-weight: 500;
+    position: relative;
+    right:-400px;
+    bottom:-45px;
+    margin:10px;
+    height:25px;
+}
+  .header a:hover{
+    color:white;
+    background-color:black;
+    border-radius: 8px;
+    transition: 0.8s;
+    padding:5px;
+    
+}
