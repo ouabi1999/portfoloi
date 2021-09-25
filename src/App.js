@@ -22,11 +22,8 @@ class App extends React.Component{
               <Route path="/resume" component={Resume}/>
           <Switch/>
         </div>
-        
         </Router>
       )
-
     }
   }
-
 export default App;
