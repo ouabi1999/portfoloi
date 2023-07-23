@@ -2,6 +2,7 @@ import React from 'react'
 import styled from "styled-components"
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LanguageIcon from '@mui/icons-material/Language';
+import { Fade } from 'react-reveal';
 
 function Projects() {
     return (
@@ -10,6 +11,7 @@ function Projects() {
             Projects
             </h1>
             <Wrapper>
+                <Fade>
                 <Wrapp>
                     
                    <img src='../images/disney-plus-shang-chi-1.jpg' alt=""/>
@@ -26,7 +28,7 @@ function Projects() {
                    
                    </a>
                 </Wrapp>
-
+                </Fade>
                 <Wrapp>
                    <img src='../images/themarketmuckup.png' alt=""/>
                    <a className='social-container' target="blank" href="https://themarket.com">
