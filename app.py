@@ -1,9 +1,23 @@
 from flask_mail import Mail, Message
 from flask  import request, json
 from  back_end.api.main import create_app, mail
+from flask import send_from_directory
 app = create_app()
 
 import os
+
+
+
+@app.route("/")
+
+def serve():
+    return send_from_directory(app.static_folder, "index.html")
+    
+
+@app.errorhandler(404)
+def not_found(e):
+    return app.send_static_file('index.html')
+
 @app.route("/send_mail", methods=["POST"])
 def index():
     request_data = json.loads(request.data)
