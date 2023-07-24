@@ -10,7 +10,7 @@ import os
 
 @app.route("/")
 
-def serve():
+def server():
     return send_from_directory(app.static_folder, "index.html")
     
 

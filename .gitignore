@@ -14,8 +14,8 @@ pnp
 venv
 
 # production
-/build
-build
+#/build
+#build
 # misc
 env
 .env
