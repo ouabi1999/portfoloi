@@ -15,7 +15,7 @@ function Header() {
           <Wrapp>
               <div className='image-effect'>
               <Pulse>
-                  <img className='profile-img' src="../images/Useravatar.png" alt="profile picture" />
+                  <img className='profile-img' src="./images/Useravatar.png" alt="profile picture" />
               </Pulse>
               </div>
         <div>
