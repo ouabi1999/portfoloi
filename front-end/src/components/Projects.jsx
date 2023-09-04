@@ -51,7 +51,7 @@ function Projects() {
                    
                    
                    </a>
-                   <a className='social-container' target="_blank"  href="https://animis.onrender.com">
+                   <a className='social-container' target="blank"  href="https://animis.shop">
                    <LanguageIcon className='social=icon'/>
                    <span>Live Link</span>
                    
