@@ -15,7 +15,7 @@ function Header() {
           <Wrapp>
               <div className='image-effect'>
               <Pulse>
-                  <img className='profile-img' src="../images/profile.png" alt="profile picture" />
+                  <img className='profile-img' src="../images/myprofile.jpg" alt="profile picture" />
               </Pulse>
               </div>
         <div>
@@ -94,10 +94,12 @@ const Container  = styled.div`
     position:relative;
     
     .profile-img {
-        width:300px;
-        height:300px;
-        object-fit:cover;
+        width:290px;
+        height:290px;
+        object-fit:contain;
         border-radius:50%;
+        rotate: 10deg;
+
         box-shadow: #ececec 0px 2px 4px 0px, #00ffaa 0px 2px 16px 0px;
      }
      .image-effect:hover {

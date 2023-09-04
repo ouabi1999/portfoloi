@@ -195,10 +195,12 @@ const Container = styled.div`
   }
   textarea {
     height: 300px;
-    width: 400px;
+    width: 40vw;
+    min-width:320px;
+    max-width:500px;
     padding: 5px 10px;
   }
-
+  
 `;
 const SociaMediaContainer = styled.div`
   margin: 30px 10px;

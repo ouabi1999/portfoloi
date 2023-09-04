@@ -16,13 +16,13 @@ function Projects() {
                     
                    <img src='../images/disney-plus-shang-chi-1.jpg' alt=""/>
                    
-                   <a className='social-container'target="blank" href="https://github.com/ouabi1999/desniy-clone">
+                   <a className='social-container' target="_blank"  href="https://github.com/ouabi1999/desniy-clone">
                    <GitHubIcon className='social=icon'/>
                    <span>Source code</span>
                    
                    
                    </a>
-                   <a className='social-container' target="blank"  href="https://disney-clone-one.vercel.app">
+                   <a className='social-container' target="_blank"  href="https://disney-clone-one.vercel.app">
                    <LanguageIcon className='social=icon'/>
                    <span>Live Link</span>
                    
@@ -31,13 +31,13 @@ function Projects() {
                 </Fade>
                 <Wrapp>
                    <img src='../images/themarketmuckup.png' alt=""/>
-                   <a className='social-container' target="blank" href="https://themarket.com">
+                   <a className='social-container' target="_blank"  href="https://github.com/ouabi1999/themarket" >
                    <GitHubIcon className='social=icon'/>
                    <span>Source code</span>
                    
                    
                    </a>
-                   <a className='social-container' target="blank"  href="https://github.com/ouabi1999/themarket">
+                   <a className='social-container' target="_blank" href="https://themarket.com" >
                    <LanguageIcon className='social=icon'/>
                    <span>Live Link</span>
                    
@@ -45,13 +45,13 @@ function Projects() {
                 </Wrapp>
                 <Wrapp>
                    <img src='../images/animisprojectonmockup.png' alt=""/>
-                   <a className='social-container' target="blank" href="https://github.com/ouabi1999/animis">
+                   <a className='social-container' target="_blank" href="https://github.com/ouabi1999/animis">
                    <GitHubIcon className='social=icon'/>
                    <span>Source code</span>
                    
                    
                    </a>
-                   <a className='social-container' target="blank"  href="https://animis.shop">
+                   <a className='social-container' target="_blank"  href="https://animis.onrender.com">
                    <LanguageIcon className='social=icon'/>
                    <span>Live Link</span>
                    
@@ -60,13 +60,13 @@ function Projects() {
                
                 <Wrapp>
                    <img src='../images/stripecheckout.png' alt=""/>
-                   <a className='social-container' target="blank" href="https://github.com/ouabi1999/react-stripe-checkout">
+                   <a className='social-container' target="_blank" href="https://github.com/ouabi1999/react-stripe-checkout">
                    <GitHubIcon className='social=icon'/>
                    <span>Source code</span>
                    
                    
                    </a>
-                   <a className='social-container' target="blank"  href="https://urchin-app-jk64d.ondigitalocean.app/">
+                   <a className='social-container' target="_blank"  href="https://react-stripe-checkout.onrender.com/">
                    <LanguageIcon className='social=icon'/>
                    <span>Live Link</span>
                    
@@ -128,6 +128,14 @@ const Wrapper = styled.div`
      justify-content:center;
      flex-wrap:wrap;
      gap:15px;
+     @media only screen and (max-width: 360px) {
+     &{
+        padding:10px;
+     }
+    img{
+        width:100%;
+    }
+}
 `
 const Wrapp = styled.div`
     padding-bottom:10px;
@@ -150,5 +158,11 @@ img{
     border-radius: 6px 6px 0 0;
 
 
+}
+@media only screen and (max-width: 360px) {
+    
+    img{
+        width:100%;
+    }
 }
 `
