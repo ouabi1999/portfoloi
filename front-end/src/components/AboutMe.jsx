@@ -15,8 +15,8 @@ function AboutMe() {
       </Fade>
       <Fade left>
       <p>
-        I’m a Self-Taught Full Stack Developer with expertise in React,
-        Flask, HTML, CSS, JavaScript, and Python.
+        I’m a Self-Taught Full Stack Developer with expertise in HTML, CSS, JavaScript, Python, React,
+        Flask and Django.
         I have experience developing responsive web applications,
         building RESTful APIs, and integrating payment gateways such as Stripe and PayPal.
         I am proficient in Git and have experience working with Agile methodologies.

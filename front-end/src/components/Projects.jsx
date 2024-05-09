@@ -14,15 +14,15 @@ function Projects() {
                 <Fade>
                 <Wrapp>
                     
-                   <img src='../images/disney-plus-shang-chi-1.jpg' alt=""/>
+                   <img src='https://res.cloudinary.com/dzpzy1o1y/image/upload/v1715216249/disney-plus-shang-chi-1_dl2d8x.jpg' alt=""/>
                    
-                   <a className='social-container' target="_blank"  href="https://github.com/ouabi1999/desniy-clone">
+                   <a className='social-container' target="_blank"   rel="noreferrer" href="https://github.com/ouabi1999/desniy-clone">
                    <GitHubIcon className='social=icon'/>
                    <span>Source code</span>
                    
                    
                    </a>
-                   <a className='social-container' target="_blank"  href="https://disney-clone-one.vercel.app">
+                   <a className='social-container' target="_blank"   rel="noreferrer" href="https://disney-clone-one.vercel.app">
                    <LanguageIcon className='social=icon'/>
                    <span>Live Link</span>
                    
@@ -30,28 +30,28 @@ function Projects() {
                 </Wrapp>
                 </Fade>
                 <Wrapp>
-                   <img src='../images/themarketmuckup.png' alt=""/>
-                   <a className='social-container' target="_blank"  href="https://github.com/ouabi1999/themarket" >
+                   <img src='https://res.cloudinary.com/dzpzy1o1y/image/upload/v1715221533/the_market_muckup_new_upugea.png' alt=""/>
+                   <a className='social-container' target="_blank"   rel="noreferrer" href="https://github.com/ouabi1999/themarket" >
                    <GitHubIcon className='social=icon'/>
                    <span>Source code</span>
                    
                    
                    </a>
-                   <a className='social-container' target="_blank" href="https://themarket.com" >
+                   <a className='social-container' target="_blank"  rel="noreferrer" href="https://themarket.com" >
                    <LanguageIcon className='social=icon'/>
                    <span>Live Link</span>
                    
                    </a>
                 </Wrapp>
                 <Wrapp>
-                   <img src='../images/animisprojectonmockup.png' alt=""/>
-                   <a className='social-container' target="_blank" href="https://github.com/ouabi1999/animis">
+                   <img src='https://res.cloudinary.com/dzpzy1o1y/image/upload/v1715223064/animisprojectonmnew_wtleog.png' alt=""/>
+                   <a className='social-container' target="_blank"  rel="noreferrer" href="https://github.com/ouabi1999/animis">
                    <GitHubIcon className='social=icon'/>
                    <span>Source code</span>
                    
                    
                    </a>
-                   <a className='social-container' target="blank"  href="https://animis.shop">
+                   <a className='social-container' target="blank"   rel="noreferrer" href="https://animis.shop">
                    <LanguageIcon className='social=icon'/>
                    <span>Live Link</span>
                    
@@ -59,42 +59,42 @@ function Projects() {
                 </Wrapp>
                
                 <Wrapp>
-                   <img src='../images/stripecheckout.png' alt=""/>
-                   <a className='social-container' target="_blank" href="https://github.com/ouabi1999/react-stripe-checkout">
+                   <img src='https://res.cloudinary.com/dzpzy1o1y/image/upload/v1715222472/stripechenew_fz1mhx.png' alt=""/>
+                   <a className='social-container' target="_blank"  rel="noreferrer" href="https://github.com/ouabi1999/react-stripe-checkout">
                    <GitHubIcon className='social=icon'/>
                    <span>Source code</span>
                    
                    
                    </a>
-                   <a className='social-container' target="_blank"  href="https://react-stripe-checkout.onrender.com/">
+                   <a className='social-container' target="_blank"   rel="noreferrer" href="https://react-stripe-checkout.onrender.com/">
                    <LanguageIcon className='social=icon'/>
                    <span>Live Link</span>
                    
                    </a>
                 </Wrapp>
                 <Wrapp>
-                   <img src='../images/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg' alt=""/>
-                   <a className='social-container'  href="#">
+                   <img src='https://res.cloudinary.com/dzpzy1o1y/image/upload/v1715216567/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690_latyd1.jpg' alt=""/>
+                   <a className='social-container'   rel="noreferrer" href="#">
                    <GitHubIcon className='social=icon'/>
                    <span>Source code</span>
                    
                    
                    </a>
-                   <a className='social-container'   href="#">
+                   <a className='social-container'    rel="noreferrer" href="#">
                    <LanguageIcon className='social=icon'/>
                    <span>Live Link</span>
                    
                    </a>
                 </Wrapp>
                 <Wrapp>
-                   <img src='../images/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg' alt=""/>
-                   <a className='social-container'  href="#">
+                   <img src='https://res.cloudinary.com/dzpzy1o1y/image/upload/v1715216567/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690_latyd1.jpg' alt=""/>
+                   <a className='social-container'   rel="noreferrer" href="#">
                    <GitHubIcon className='social=icon'/>
                    <span>Source code</span>
                    
                    
                    </a>
-                   <a className='social-container'  href="#">
+                   <a className='social-container'   rel="noreferrer" href="#">
                    <LanguageIcon className='social=icon'/>
                    <span>Live Link</span>
                    

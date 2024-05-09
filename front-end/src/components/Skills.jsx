@@ -79,7 +79,7 @@ function Skills() {
           </Wrapp>
           <Wrapp>
 
-              <span>MySql</span>
+              <span>Django</span>
               <CircularProgress thickness={5} className='circle-progress' variant="determinate" value={85} />
               <span>85%</span>
               

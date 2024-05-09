@@ -15,7 +15,7 @@ function Header() {
           <Wrapp>
               <div className='image-effect'>
               <Pulse>
-                  <img className='profile-img' src="../images/myprofile.jpg" alt="profile picture" />
+                  <img className='profile-img' src="https://res.cloudinary.com/dzpzy1o1y/image/upload/v1715216215/myprofile_qkls0r.jpg" alt="profile picture" />
               </Pulse>
               </div>
         <div>
@@ -41,46 +41,46 @@ function Header() {
       </Wrapp>
       
        <FlaskIcon className="container-icon">
-        <img  className="img1" src="./images/pngwing.com(3).png" alt=""/>
+        <img  className="img1" src="https://res.cloudinary.com/dzpzy1o1y/image/upload/v1715216669/pngwing.com_3_wt17xg.png" alt=""/>
        </FlaskIcon>
        <MaterialUiIcon className="container-icon">
-        <img  className="img1" src="./images/pngwing.com(4).png" alt=""/>
+        <img  className="img1" src="https://res.cloudinary.com/dzpzy1o1y/image/upload/v1715216668/pngwing.com_4_e2j2eq.png" alt=""/>
        </MaterialUiIcon>
        <PostgresIcon className="container-icon">
-        <img  className="img1" src="./images/pngwing.com(5).png" alt=""/>
+        <img  className="img1" src="https://res.cloudinary.com/dzpzy1o1y/image/upload/v1715216677/pngwing.com_5_ihdopd.png" alt=""/>
        </PostgresIcon>
        
        <PythonIcon  className="container-icon">
-       <img  className="img1" src="./images/pngwing.com(6).png" alt=""/>
+       <img  className="img1" src="https://res.cloudinary.com/dzpzy1o1y/image/upload/v1715216675/pngwing.com_6_yyazop.png" alt=""/>
 
        </PythonIcon>
        <MySqlIcon className="container-icon">
-       <img  className="img1" src="./images/pngwing.com(7).png" alt=""/>
+       <img  className="img1" src="https://res.cloudinary.com/dzpzy1o1y/image/upload/v1715216680/pngwing.com_7_m9z4h8.png" alt=""/>
 
        </MySqlIcon>
        <VsCodeIcon className="container-icon">
-       <img  className="img1" src="./images/pngwing.com(8).png" alt=""/>
+       <img  className="img1" src="https://res.cloudinary.com/dzpzy1o1y/image/upload/v1715216678/pngwing.com_8_zjicke.png" alt=""/>
 
        </VsCodeIcon>
        <HtmlIcon className="container-icon">
-       <img  className="img1" src="./images/pngwing.com(9).png" alt=""/>
+       <img  className="img1" src="https://res.cloudinary.com/dzpzy1o1y/image/upload/v1715216678/pngwing.com_9_ktzxvx.png" alt=""/>
 
        </HtmlIcon>
        <JavaScriotIcon className="container-icon">
-            <img  className="img1" src="./images/pngwing.com(10).png" alt=""/>
+            <img  className="img1" src="https://res.cloudinary.com/dzpzy1o1y/image/upload/v1715216677/pngwing.com_10_zou7wm.png" alt=""/>
        </JavaScriotIcon>
        <CssIcon className="container-icon">
-            <img  className="img1" src="./images/pngwing.com(11).png" alt=""/>
+            <img  className="img1" src="https://res.cloudinary.com/dzpzy1o1y/image/upload/v1715216677/pngwing.com_11_mmkoy0.png" alt=""/>
        </CssIcon>
 
        <NodeJsIcon className="container-icon">
-            <img  className="img1" src="./images/pngwing.com(12).png" alt=""/>
+            <img  className="img1" src="https://res.cloudinary.com/dzpzy1o1y/image/upload/v1715224079/django-logo-positive_ruu66s.png" alt=""/>
        </NodeJsIcon>
        <ReactIcon className="container-icon">
-            <img  className="img1" src="./images/pngwing.com.png" alt=""/>
+            <img  className="img1" src="https://res.cloudinary.com/dzpzy1o1y/image/upload/v1715216683/pngwing.com_vd7rf8.png" alt=""/>
        </ReactIcon>
        <ReduxIcon className="container-icon">
-            <img  className="img1" src="./images/pngwing.com(13).png" alt=""/>
+            <img  className="img1" src="https://res.cloudinary.com/dzpzy1o1y/image/upload/v1715216680/pngwing.com_13_e0q7bw.png" alt=""/>
        </ReduxIcon>
     </Container>
   )
@@ -89,7 +89,7 @@ function Header() {
 export default Header
 
 const Container  = styled.div`
-    background-image:url("../images/Webbackground.png");
+    background-image:url("https://res.cloudinary.com/dzpzy1o1y/image/upload/v1715215193/Webbackground_msxaty.png");
     height:585px;
     position:relative;
     
