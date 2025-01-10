@@ -119,7 +119,7 @@ const Container = styled.div`
         cursor:pointer;
     }
     h1:hover{
-       border-bottom:4px solid #00f3cb;
+       border-bottom:4px solid #f8aeff;
        transition: 250ms;
    }
 `
@@ -139,7 +139,7 @@ const Wrapper = styled.div`
 `
 const Wrapp = styled.div`
     padding-bottom:10px;
-    background:#aafcff;
+    background:#d4a6ff;
     display:flex;
     flex-direction:column;
     border-radius: 6px 6px 0 0;
