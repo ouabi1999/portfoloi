@@ -1,9 +1,7 @@
 import React from 'react'
 import styled from "styled-components"
 import CircularProgress from '@mui/material/CircularProgress';
-import Fade from 'react-reveal/Fade';
-import Flip from 'react-reveal/Flip';
-import Pulse from 'react-reveal/Pulse'
+
 
 
 
@@ -12,7 +10,7 @@ import Pulse from 'react-reveal/Pulse'
 function Skills() {
   return (
     <Container>
-        <Fade left>
+       
         <Wrapper>
             <span className="header-name">Front-end</span>
           <Wrapp>
@@ -58,9 +56,7 @@ function Skills() {
 
           </Wrapp>
           </Wrapper>
-          </Fade>
           
-          <Pulse>
           <Wrapper>
             <span className="header-name">Back-end</span>
           <Wrapp>
@@ -106,8 +102,7 @@ function Skills() {
 
           </Wrapp>
           </Wrapper>
-          </Pulse>
-          <Fade right>
+        
 
           <Wrapper>
             <span className="header-name">Other</span>
@@ -156,7 +151,6 @@ function Skills() {
           
           
           </Wrapper>
-          </Fade>
 
     </Container>
   )

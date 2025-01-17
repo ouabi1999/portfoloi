@@ -2,7 +2,6 @@ import React from 'react'
 import styled from "styled-components"
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LanguageIcon from '@mui/icons-material/Language';
-import { Fade } from 'react-reveal';
 
 function Projects() {
     return (
@@ -11,7 +10,6 @@ function Projects() {
             Projects
             </h1>
             <Wrapper>
-                <Fade>
                 <Wrapp>
                     
                    <img src='https://res.cloudinary.com/dzpzy1o1y/image/upload/v1715216249/disney-plus-shang-chi-1_dl2d8x.jpg' alt=""/>
@@ -28,7 +26,6 @@ function Projects() {
                    
                    </a>
                 </Wrapp>
-                </Fade>
                 <Wrapp>
                    <img src='https://res.cloudinary.com/dzpzy1o1y/image/upload/v1715221533/the_market_muckup_new_upugea.png' alt=""/>
                    <a className='social-container' target="_blank"   rel="noreferrer" href="https://github.com/ouabi1999/themarket" >
@@ -155,6 +152,7 @@ const Wrapp = styled.div`
 img{
     width:380px;
     height:250px;
+    object-fit:cover;
     border-radius: 6px 6px 0 0;
 
 

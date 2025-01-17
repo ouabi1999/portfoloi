@@ -1,26 +1,23 @@
-import React, { Component } from 'react'
+import React, { Component, useState} from 'react'
 import "./header.css"
 import {Link } from "react-router-dom"
 import styled from "styled-components"
-import Pulse from 'react-reveal/Pulse';
-import Fade from 'react-reveal/Fade';
-import Typed from "react-typed"
+import { ReactTyped,Typed } from "react-typed";
 
 
 
 
 function Header() {
+
   return (
       <Container>
           <Wrapp>
               <div className='image-effect'>
-              <Pulse>
                   <img className='profile-img' src="https://res.cloudinary.com/dzpzy1o1y/image/upload/v1715216215/myprofile_qkls0r.jpg" alt="profile picture" />
-              </Pulse>
               </div>
         <div>
           <h2>
-            <Typed
+            <ReactTyped
               strings={["Hello, I'm Ouabi Abdessamad."]}
               typeSpeed={120}
               backSpeed={100}
@@ -28,7 +25,7 @@ function Header() {
             />
           </h2>
           <h2>
-            <Typed
+            <ReactTyped
               strings={[
                 "I'm Full-Stack Web Developer."]}
               typeSpeed={120}

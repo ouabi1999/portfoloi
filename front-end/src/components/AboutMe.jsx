@@ -4,67 +4,57 @@ import DevicesIcon from '@mui/icons-material/Devices';
 import SpeedIcon from '@mui/icons-material/Speed';
 import LightbulbIcon from '@mui/icons-material/Lightbulb';
 import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
-import { Fade } from 'react-reveal';
-import Pulse from 'react-reveal/Pulse';
+
 
 function AboutMe() {
   return (
     <Container>
-      <Fade left>
-          <h2>About me</h2>
-      </Fade>
-      <Fade left>
+      <h2>About me</h2>
+     <div style={{margin:"auto", width:"80%"}}>
       <p>
-        I’m a Self-Taught Full Stack Developer with expertise in HTML, CSS, JavaScript, Python, React,
-        Flask and Django.
-        I have experience developing responsive web applications,
-        building RESTful APIs, and integrating payment gateways such as Stripe and PayPal.
-        I am proficient in Git and have experience working with Agile methodologies.
-        I am a team player with excellent communication and problem-solving skills.
-      </p>
-      </Fade>
+        Passionate Full Stack Web Developer with 4 years of experience
+        designing, developing, and deploying scalable, user-centric web
+        applications.
+        </p>
+        <p>Proficient in both front-end and back-end technologies, with
+        a strong commitment to creating efficient, clean, and maintainable code.
+        </p>
+        <p>
+        Seeking a dynamic role to leverage my skills in html, css, javaScript,
+        python, react js, flask ,django and git/gtihub to drive business success.
+        </p>
+        </div>
       <Wrapper>
-      <Fade left>
-          <Wrap>
+        <Wrap>
+          <DevicesIcon className="icon" />
+          <h2>Responsive </h2>
+          <span>My layouts will work on any device, big or small</span>
+        </Wrap>
 
-            <DevicesIcon className="icon" />
-            <h2>Responsive </h2>
-            <span>
-              My layouts will work on any device, big or small
-            </span>
-          </Wrap>
-        </Fade>
-        <Fade left>
         <Wrap>
           <SpeedIcon className="icon" />
           <h2> Fast </h2>
           <span>
-          Fast load times and lag free interaction, my highest priority.          </span>
+            Fast load times and lag free interaction, my highest priority.{" "}
+          </span>
         </Wrap>
-        </Fade>
-        <Fade right>
+
         <Wrap>
           <LightbulbIcon className="icon" />
           <h2>Intuitive </h2>
-          <span>
-             Strong preference for easy to use, intuitive UX/UI.
-          </span>
+          <span>Strong preference for easy to use, intuitive UX/UI.</span>
         </Wrap>
-        </Fade>
-        <Fade right>
 
         <Wrap>
           <RocketLaunchIcon className="icon" />
           <h2>Dynamic</h2>
           <span>
-              Websites don't have to be static, I love making pages come to life.
+            Websites don't have to be static, I love making pages come to life.
           </span>
         </Wrap>
-        </Fade>
-
       </Wrapper>
     </Container>
-  )
+  );
 }
 export default AboutMe
 const Container = styled.div`
@@ -82,9 +72,7 @@ const Container = styled.div`
    }
 
    p{
-    text-align:center;
-    width:60%;
-    margin:auto;
+    
     font-family:Arial, Helvetica, sans-serif;
     line-height:2rem;
     font-size:17px;
