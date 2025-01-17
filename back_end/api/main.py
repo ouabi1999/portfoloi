@@ -8,7 +8,7 @@ mail = Mail()
 socketio = SocketIO()
 
 def create_app(config_class=Config):
-    app = Flask(__name__,  static_folder="../../front-end/build", static_url_path='/', template_folder='../templates', instance_relative_config=True) 
+    app = Flask(__name__,  static_folder="../../front-end/dist", static_url_path='/', template_folder='../templates', instance_relative_config=True) 
 
     socketio.init_app(app, cors_allowed_origins = "*")
 

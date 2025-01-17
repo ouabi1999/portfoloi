@@ -4,7 +4,7 @@ import DevicesIcon from '@mui/icons-material/Devices';
 import SpeedIcon from '@mui/icons-material/Speed';
 import LightbulbIcon from '@mui/icons-material/Lightbulb';
 import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
-
+import { motion } from "motion/react"
 
 function AboutMe() {
   return (
