@@ -32,7 +32,7 @@ Jinja2==3.1.2
 loadenv==0.1.1
 Mako==1.2.4
 MarkupSafe==2.1.2
-Pillow==10.3.0
+Pillow==12.2.0
 
 psycopg2-binary==2.9.5
 
