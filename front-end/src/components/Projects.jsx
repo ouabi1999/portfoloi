@@ -70,7 +70,7 @@ function Projects() {
                    </a>
                 </Wrapp>
                 <Wrapp>
-                   <img src='https://res.cloudinary.com/dzpzy1o1y/image/upload/v1736542250/emouza_gzned6.png' alt=""/>
+                   <img src='https://res.cloudinary.com/dzpzy1o1y/image/upload/v1782584675/enouza-page_qzqqka.png' alt=""/>
                    <a className='social-container'   rel="noreferrer" href="https://github.com/ouabi1999/enouza">
                    <GitHubIcon className='social=icon'/>
                    <span>Source code</span>
